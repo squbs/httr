@@ -47,5 +47,5 @@ To get the current development version from github:
 
 ```R
 # install.packages("devtools")
-devtools::install_github("r-lib/httr")
+devtools::install_github("squbs/httr")
 ```
