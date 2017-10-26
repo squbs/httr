@@ -13,7 +13,7 @@ guess_encoding <- function(encoding = NULL, type = NULL) {
   charset <- if (!is.null(type)) parse_media(type)$params$charset
 
   if (is.null(charset)) {
-    message("No encoding supplied: defaulting to UTF-8.")
+    #message("No encoding supplied: defaulting to UTF-8.")
     return("UTF-8")
   }
 
